@@ -5,7 +5,7 @@ import org.springframework.jdbc.core.support.JdbcDaoSupport;
 
 import com.jinyinmao.pay.dao.UserAuthDao;
 import com.jinyinmao.pay.dao.UserAuthRowMapper;
-import com.jinyinmao.pay.model.UserAuth;
+import com.jinyinmao.pay.domain.UserAuth;
 
 public class JdbcUserAuthDao extends JdbcDaoSupport implements UserAuthDao {
 	/*使用jdbcsupport无需声明使用dataSource

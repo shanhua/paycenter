@@ -5,7 +5,7 @@ import java.sql.SQLException;
 
 import org.springframework.jdbc.core.RowMapper;
 
-import com.jinyinmao.pay.model.UserAuth;
+import com.jinyinmao.pay.domain.UserAuth;
 
 public class UserAuthRowMapper implements RowMapper {
 	public Object mapRow(ResultSet rs, int rowNum) throws SQLException {

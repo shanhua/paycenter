@@ -1,5 +1,5 @@
 package com.jinyinmao.pay.dao;
-import com.jinyinmao.pay.model.UserAuth;
+import com.jinyinmao.pay.domain.UserAuth;
 
 public interface UserAuthDao {
 	public void insert(UserAuth userAuth);
